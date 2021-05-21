@@ -2,6 +2,10 @@
 
 {% block body %}
     <div class="container my-3">
+
+        {% if msg %}
+            <h1>{{msg}}</h1>       
+        {% endif %}
         <h3>Please Enter Mobile Number and Message</h3>
         <hr>
         <form action = "SendData" method = "POST">
