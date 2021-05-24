@@ -9,6 +9,9 @@ def main(request):
     return render(request,"home/home.html")
 
 def WhatsappData(Ph,Message):
+    import os
+    os.environ['DISPLAY'] = ':0
+    
     import time
     import webbrowser as web
     import pyautogui as pg
