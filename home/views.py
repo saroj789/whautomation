@@ -10,7 +10,7 @@ def main(request):
 
 def WhatsappData(Ph,Message):
     import os
-    os.environ['DISPLAY'] = ':0
+    os.environ['DISPLAY'] = ':0'
     
     import time
     import webbrowser as web
